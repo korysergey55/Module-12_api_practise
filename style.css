@@ -42,12 +42,12 @@ p.api-name {
   background-color: #00796b;
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(#414141, 0.3);
-  &:hover {
-    background-color: #004c40;
-  }
-  &:active {
-    box-shadow: 0 6px 4px 0 rgba(#414141, 0.3);
-  }
+}
+.mdc-btn:hover {
+  background-color: #004c40;
+}
+.mdc-btnactive {
+  box-shadow: 0 6px 4px 0 rgba(#414141, 0.3);
 }
 
 .search-form {
@@ -66,9 +66,9 @@ p.api-name {
   font-size: 18px;
   background-color: transparent;
   border-bottom: 2px solid #00796b;
-  &::placeholder {
-    color: #616161;
-  }
+}
+.search-form input::placeholder {
+  color: #616161;
 }
 
 .result-1,
