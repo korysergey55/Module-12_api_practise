@@ -31,7 +31,7 @@ npm start
   
  и деплой:
  
-npm run deploy
+npm run deployx
 
 В настройках своего нового репозитория на Гитхабе в разделе GitHub Pages ничего устанавливать не нужно, команда npm run deploy все сделает за вас.
 
